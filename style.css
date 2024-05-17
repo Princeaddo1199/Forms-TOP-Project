@@ -65,6 +65,8 @@ body {
 .top {
   /* background-color: rgb(235, 235, 235);*/
   height: 30vh;
+  width: 65vw;
+
   display: flex;
   align-items: center;
   color: #323131;
@@ -74,6 +76,7 @@ body {
 }
 form {
   height: 40vh;
+  width: 65vw;
   background-color: rgb(214, 28, 28);
   background-color: white;
   filter: drop-shadow(1px 3.5px 3px rgba(0, 0, 0, 0.3));
@@ -87,6 +90,7 @@ form {
 }
 .bottom {
   height: 20vh;
+  width: 65vw;
 }
 
 .form-divs {
