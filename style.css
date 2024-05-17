@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,30 +18,31 @@ body {
 
 .left {
   width: 35vw;
+  height: 100vh;
   background: url("./images/roan-lavery-lvy_VvdLmnA-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Norse-Bold;
 }
-.footer{
-    margin-top: 530px;
-    text-align: center;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: lighter;
+.footer {
+  margin-top: 500px;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
 }
 
-.foo{
-    
-    color: rgba(255, 255, 255, 0.7);
+.foo {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .right {
   display: flex;
   flex-direction: column;
   width: 65vw;
+  height: 100vh;
   background-color: #fafafa;
 }
 
@@ -57,7 +59,6 @@ body {
 
 .logo-text {
   font-size: 90px;
-  margin-bottom: 30px;
 }
 .logo {
   width: 90px;
@@ -86,10 +87,9 @@ form {
   display: flex;
   flex-direction: row;
   color: rgb(80, 79, 79);
-  
 }
 .bottom {
-  height: 20vh;
+  height: 30vh;
   width: 65vw;
 }
 
@@ -112,7 +112,6 @@ input {
   font-size: 16px;
   /*filter: drop-shadow(2px 2px 4px black);*/
 }
-
 
 input:invalid {
   border: 1px solid red;
@@ -148,8 +147,8 @@ h3 {
   color: rgb(63, 62, 62);
 }
 
-#error{
-    color: red;
-    margin: 0;
-    font-size: 12px;
+#error {
+  color: red;
+  margin: 0;
+  font-size: 12px;
 }
