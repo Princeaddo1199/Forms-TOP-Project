@@ -109,11 +109,6 @@ input {
 }
 
 
-
-.input:hover {
-  border: 1px solid blue;
-  filter: drop-shadow(2px 2px 4px black);
-}
 input:invalid {
   border: 1px solid red;
 }
@@ -146,4 +141,10 @@ button {
 h3 {
   margin-top: 3rem;
   color: rgb(63, 62, 62);
+}
+
+#error{
+    color: red;
+    margin: 0;
+    font-size: 12px;
 }
