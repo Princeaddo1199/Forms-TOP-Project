@@ -5,10 +5,10 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-section{
-    background-color: yellow;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -20,13 +20,79 @@ body{
   background: url("./images/roan-lavery-lvy_VvdLmnA-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: Norse-Bold;
 }
 
 .right{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     width: 65vw;
-    background-color: aquamarine;
+
+   
 }
 
-.
+.text-background{
+    width: 35vw;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.logo-text{
+    line-height: 150px;
+    font-size: 70px;
+
+}
+.logo{
+    width: 100px;
+}
+.top{
+    background-color: rgb(235, 235, 235);
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+.top h2{
+    margin: 5rem;
+}
+.form-main{
+    
+    height: 40vh;
+}
+.bottom{
+    background-color: blue;
+    height: 30vh;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    color: rgb(80, 79, 79);
+}
+.form-divs{
+    margin-left: 30px;
+    
+}
+.form-left, .form-right{
+margin-left: 100px;
+}
+.form-div{
+    margin: 0px 20px 35px 0px;
+}
+input{
+    width: 22rem;
+    height: 2.1rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding-left:13px ;
+    font-size: 16px;
+}
+.form-heading{
+    margin-left: 100px;
+    color: rgb(63, 62, 62);
+}
+label{
+    font-size: 14px;
+    font-weight: 600;
+}
