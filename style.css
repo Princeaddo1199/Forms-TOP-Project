@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./Fonts/Norse-Bold.otf);
+}
 body{
     margin: 0;
     padding: 0;
@@ -12,15 +16,17 @@ body{
 }
 
 .left{
-    display: flex;
-    justify-content: center;
-    width: 30vw;
-    background-color: aqua;
+    width: 35vw;
+  background: url("./images/roan-lavery-lvy_VvdLmnA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .right{
     display: flex;
     justify-content: center;
-    width: 70vw;
+    width: 65vw;
     background-color: aquamarine;
 }
+
+.
