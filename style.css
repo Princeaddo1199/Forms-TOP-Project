@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-section{
+    background-color: yellow;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    background-color: aqua;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    background-color: aquamarine;
+}
