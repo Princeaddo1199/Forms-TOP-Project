@@ -67,6 +67,7 @@ body {
   height: 30vh;
   display: flex;
   align-items: center;
+  color: #323131;
 }
 .top h2 {
   margin: 5rem;
